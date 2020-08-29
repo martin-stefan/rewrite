@@ -2,6 +2,7 @@ import React from 'react';
 import './App.scss';
 import Loading from './components/Loading/Loading';
 import Welcome from './components/Welcome/Welcome';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <Welcome />
 
       {/* <Loading /> */}
+
+      <Footer />
     </div>
   );
 }
