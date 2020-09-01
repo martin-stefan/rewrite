@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.scss';
 import Loading from './components/Loading/Loading';
-import Welcome from './components/Welcome/Welcome';
-import Footer from './components/Footer/Footer';
+import Welcome from './containers/Welcome/Welcome';
+import Footer from './containers/Footer/Footer';
 
 function App() {
   return (
