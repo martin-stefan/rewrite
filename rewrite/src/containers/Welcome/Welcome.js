@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Welcome.scss"
+import { motion } from "framer-motion";
 
 
 const Welcome = () => {
