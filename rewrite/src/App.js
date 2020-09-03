@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.scss';
 import Loading from './components/Loading/Loading';
 import Welcome from './containers/Welcome/Welcome';
 import Footer from './containers/Footer/Footer';

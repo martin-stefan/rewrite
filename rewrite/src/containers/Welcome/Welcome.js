@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Welcome.scss"
+import '../../sass/main.scss';
 import { motion } from "framer-motion";
 import Menu from '../../components/Menu/Menu';
 import More from '../../components/More/More';
