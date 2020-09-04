@@ -1,12 +1,23 @@
+
+
 .Welcome {
   color: black;
   height: 100vh;
+
 
   // &span:nth-child(even) {
   //   font-size: 100px;
   // }
 }
 
+
 .introduction {
-  font-size: 100px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  &__main {
+    font-size: 12rem;
+  }
 }

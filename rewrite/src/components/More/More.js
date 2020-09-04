@@ -1,8 +1,11 @@
 import React from 'react';
+// import '../../sass/main.scss';
 
 const More = () => {
   return (
-    <div>Learn More</div>
+    <div className="more">Learn More
+      {/* add svg arrow */}
+    </div>
   );
 }
 
