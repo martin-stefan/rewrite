@@ -1,12 +1,11 @@
 import React from 'react';
 
-const Card = () => {
+const Contact = () => {
   return (
     <div>
-      
 
     </div>
   );
 }
 
-export default Card;
+export default Contact;
