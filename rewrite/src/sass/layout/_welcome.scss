@@ -1,4 +1,8 @@
-
+.background {
+  font-size: 30rem;
+  font-family: 'Odachi';
+  color: rgba(156, 146, 146, 0.3);
+}
 
 .Welcome {
   color: black;
@@ -13,11 +17,12 @@
 
 .introduction {
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   
   &__main {
     font-size: 12rem;
+    font-family: 'Odachi';
   }
 }

@@ -1,10 +1,11 @@
 import React from 'react';
 import '../../sass/main.scss';
+import Links from '../../components/Links/Links';
 
 const Footer = () => {
   return (
     <div className="Footer">
-      hey there
+      <Links />
     </div>
   );
 }
