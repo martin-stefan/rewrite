@@ -12,7 +12,7 @@ const Welcome = () => {
       <div className="introduction__main">
         <span className="introduction__text">Hi </span>
         <span className="introduction__text">I'm </span>
-        <span className="introduction__text">Stefan</span>
+        <span className="introduction__text">Stéfan</span>
       </div>
         <More />
       </div>
