@@ -7,6 +7,11 @@ import More from '../../components/More/More';
 const Welcome = () => {
   return (
     <div className="Welcome">
+      <span className="background">
+        &nbsp;&nbsp;&nbsp;Stéfan 
+        <br /> 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Martin
+      </span>
       <Menu />
       <div className="introduction">
       <div className="introduction__main">
