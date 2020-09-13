@@ -2,6 +2,7 @@
 
 import React from 'react';
 import '../../sass/main.scss';
+import Button from '../Button/Button';
 
 export const Card = (props) => {
   return (
@@ -9,6 +10,8 @@ export const Card = (props) => {
       <div className='card__content'>
         <h3 className='card__content--title'>This job</h3>
         <p className="card__content--description">This is what I did at this job</p>
+
+        <Button></Button>
       </div>
 
     </div>
