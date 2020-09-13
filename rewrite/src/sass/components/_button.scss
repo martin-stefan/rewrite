@@ -1,0 +1,23 @@
+.button {
+  background-color: rgb(88, 81, 81);
+  height: 2rem;
+  width: 6rem;
+  display: flex;
+  padding: 1rem;
+  border-radius: 2rem;
+  align-items: center;
+  justify-content: center;
+  transition: .2s ease-in;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-.4rem);
+  }
+
+  &:active {
+    transform: translateY(0.1rem);
+    transition: .1s ease-out;
+  }
+
+
+}
