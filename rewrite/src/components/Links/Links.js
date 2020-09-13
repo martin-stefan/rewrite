@@ -1,7 +1,9 @@
+// this components will display my important links
+
 import React from 'react';
 
 
-const Links = () => {
+export const Links = () => {
   return (
     <div>
       <span>Github</span>
