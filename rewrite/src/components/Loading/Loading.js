@@ -1,7 +1,9 @@
+// loading symbol
+
 import React from 'react';
 import '../../sass/main.scss';
 
-const Loading = ()  => {
+export const Loading = ()  => {
   return (
     <div>
       <div className="lds-ring">
@@ -15,4 +17,3 @@ const Loading = ()  => {
   );
 }
 
-export default Loading;

@@ -1,14 +1,14 @@
 // YourComponent.stories.js
 
 import React from 'react';
-import { Card } from './Card';
+import { Button } from './Button';
 
 // This default export determines where you story goes in the story list
 export default {
-  title: 'Card',
-  component: Card,
+  title: 'Button',
+  component: Button,
 };
 
-export const card = () => <Card />;
+export const button = () => <Button />;
 
-card.storyname = "Card";
+button.storyname = "Button";

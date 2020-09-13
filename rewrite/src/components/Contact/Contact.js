@@ -1,6 +1,8 @@
+// this component will display a form to contact me as well as my info
+
 import React from 'react';
 
-const Contact = () => {
+export const Contact = () => {
   return (
     <div>
 
@@ -8,4 +10,3 @@ const Contact = () => {
   );
 }
 
-export default Contact;

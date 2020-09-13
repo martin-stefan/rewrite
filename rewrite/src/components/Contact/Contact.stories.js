@@ -1,14 +1,14 @@
 // YourComponent.stories.js
 
 import React from 'react';
-import { Card } from './Card';
+import { Contact } from './Contact';
 
 // This default export determines where you story goes in the story list
 export default {
-  title: 'Card',
-  component: Card,
+  title: 'Contact',
+  component: Contact,
 };
 
-export const card = () => <Card />;
+export const contact = () => <Contact />;
 
-card.storyname = "Card";
+contact.storyname = "Contact";

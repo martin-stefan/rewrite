@@ -1,0 +1,15 @@
+.card {
+  height: 300px;
+  width: 200px;
+  background-color: grey;
+  border-radius: 2rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  
+  justify-content: center;
+
+  &__content {
+    position: relative;
+  }
+}
