@@ -1,15 +1,23 @@
 .card {
-  height: 300px;
-  width: 200px;
+  height: 24rem;
+  width: 16rem;
   background-color: grey;
-  border-radius: 2rem;
-  position: absolute;
+  border-radius: 1rem;
+  position: relative;
   display: flex;
   align-items: center;
-  
   justify-content: center;
 
+  &:hover {
+    transform: scale(1.03);
+    transition: .2s ease-in;
+    filter: blur(5px);
+
+  }
+
   &__content {
-    position: relative;
+    position: absolute;
+
+
   }
 }

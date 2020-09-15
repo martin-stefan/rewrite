@@ -11,11 +11,11 @@ export const Card = (props) => {
         <h3 className='card__content--title'>This job</h3>
         <p className="card__content--description">This is what I did at this job</p>
 
-        <Button></Button>
+        {/* <Button></Button> */}
       </div>
 
     </div>
   );
 }
 
-// export default Card;
+export default Card;
