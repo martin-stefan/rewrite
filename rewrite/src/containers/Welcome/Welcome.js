@@ -13,7 +13,6 @@ const Welcome = () => {
           <br /> 
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Martin
         </span>
-        <Menu />
         <div className="introduction">
         <div className="introduction__main">
           <span className="introduction__text">Hi </span>

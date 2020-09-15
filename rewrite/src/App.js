@@ -25,7 +25,7 @@ function App() {
         <Menu />
         
         <Switch>
-          <Route path="/project">
+          <Route path="/projects">
             <Card />
           </Route>
 
