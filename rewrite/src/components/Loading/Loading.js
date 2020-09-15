@@ -11,7 +11,6 @@ export const Loading = ()  => {
         <div></div>
         <div></div>
         <div></div>
-        <p>SM</p>
       </div>
     </div>
   );
