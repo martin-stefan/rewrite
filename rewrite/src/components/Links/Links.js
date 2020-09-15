@@ -1,13 +1,19 @@
 // this components will display my important links
 
 import React from 'react';
+import '../../sass/main.scss';
 
 
 export const Links = () => {
   return (
     <div>
-      <span>Github</span>
-      <span>LinkedIn</span>
+      <a>
+        LinkedIn
+      </a>
+      <a>
+        Github
+      </a>
+
     </div>
   );
 }
