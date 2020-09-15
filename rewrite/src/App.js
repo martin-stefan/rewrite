@@ -25,15 +25,16 @@ function App() {
         <Menu />
         
         <Switch>
-          <Route path="/more">
+          <Route path="/projects">
+            <Card />
+          </Route>
+
+          <Route path="/work">
             <Card />
           </Route>
 
           <Route path="/">
             <Welcome />
-            <Link to="/more">
-              <Button title="Learn more" />
-            </Link>
           </Route>
           
         </Switch>
