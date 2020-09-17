@@ -28,8 +28,8 @@
     right: 6.5rem;
   
     z-index: 1000;
-    -webkit-transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
-    transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
+    // -webkit-transition: transform 1s cubic-bezier(0.86, 0, 0.07, 1);
+    // transition: transform 1s cubic-bezier(0.86, 0, 0.07, 1);
 
   }
 
@@ -41,8 +41,8 @@
     z-index: 1500;
     opacity: 0;
     width: 0;
-    -webkit-transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
 
   &__list {
@@ -72,7 +72,7 @@
       background-image: linear-gradient(120deg, 
       transparent 50%, grey 50%);
       background-size: 250%;
-      transition: all .5s;
+      transition: all .7s;
 
       span {
         margin-right: 1.5rem;

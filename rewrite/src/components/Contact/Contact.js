@@ -4,9 +4,10 @@ import React from 'react';
 
 export const Contact = () => {
   return (
-    <div>
-
-    </div>
+    <div></div>
+    // <form>
+      
+    // </form>
   );
 }
 
