@@ -2,10 +2,13 @@
 
 import React from 'react';
 
-const Banner = () => {
+const Banner = (props) => {
   return (
     <div>
-
+      {props.title}
+      {props.time}
+      {props.company}
+      {props.desc}
     </div>
   );
 }
