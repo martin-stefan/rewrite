@@ -1,0 +1,13 @@
+.work {
+
+  height: 100vh;
+  margin-top: 13rem;
+
+  &__list {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 4rem;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+}
