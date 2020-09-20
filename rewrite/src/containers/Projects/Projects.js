@@ -5,9 +5,9 @@ import Card from '../../components/Card/Card';
 
 const Projects = (props) => {
   return (
-    <div>
+    <section>
       <h1>Personal & School Projects</h1>
-      <div className="list">
+      <article className="list">
         <Card 
           title="The Loop"
           company="RPI"
@@ -34,11 +34,11 @@ const Projects = (props) => {
           time="Augst 2020"
           desc="I did all of this stuff"
         />
-      </div>
+      </article>
 
       <h1>Online Course Projects</h1>
 
-      <div className="list">
+      <article className="list">
         <Card 
           title="Natours"
           company="Course"
@@ -59,9 +59,9 @@ const Projects = (props) => {
           time="July 2020"
           desc="I did all of this stuff"
         />
-      </div>
+      </article>
 
-    </div>
+    </section>
   );
 }
 
