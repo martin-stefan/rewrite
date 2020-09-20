@@ -5,26 +5,30 @@
   border-radius: 1rem;
   position: relative;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
+  flex-direction: column;
   background: url('../../images/juni.png');
-  margin: 1rem;
+  box-shadow: -1rem 0rem 3rem #000;
+  transition: .2s;
   
 
   &:hover {
-    transform: scale(1.03);
+    transform: scale(1.03) translateY(-1rem);
     transition: .2s ease-in;
-    filter: blur(5px);
 
+    &~.card {
+      transform: translateX(120px);
+    }
+
+  }
+
+  &:not(:first-child) {
+    margin-left: -120px;
   }
 
   &__content {
     position: absolute;
 
 
-  }
-
-  &__Button {
-    filter: blur(0);
   }
 }
