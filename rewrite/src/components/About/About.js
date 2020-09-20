@@ -1,3 +1,5 @@
+// this is component is for a small section talking about me
+
 import React from 'react';
 
 export const About = () => {

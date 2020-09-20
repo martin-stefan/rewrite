@@ -1,3 +1,5 @@
+// this will be the landing page of the website
+
 import React from 'react';
 import '../../sass/main.scss';
 import { motion } from "framer-motion";
