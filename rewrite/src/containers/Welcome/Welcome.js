@@ -3,10 +3,11 @@ import '../../sass/main.scss';
 import { motion } from "framer-motion";
 import Menu from '../../components/Menu/Menu';
 import Button from '../../components/Button/Button';
+import About from '../../components/About/About';
 
 const Welcome = () => {
   return (
-
+    <div>
       <div className="Welcome">
         <span className="background">
           &nbsp;&nbsp;&nbsp;Stéfan 
@@ -20,9 +21,12 @@ const Welcome = () => {
           <span className="introduction__text">Stéfan</span>
           
         </div>
+
           
         </div>
       </div>
+      <About />
+    </div>
   );
 }
 
