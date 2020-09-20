@@ -1,3 +1,5 @@
+// this component is the navigation menu button and links
+
 import React from 'react';
 
 
