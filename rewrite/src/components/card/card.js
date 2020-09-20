@@ -14,8 +14,9 @@ export const Card = (props) => {
       onMouseEnter={() => setShow(true)}
       onMouseLeave={() => setShow(false)}>
       <div className='card__content'>
-        <h3 className='card__content--title'>This job</h3>
-        <p className="card__content--description">This is what I did at this job</p>
+        <h3 className='card__content--title'>{props.title}</h3>
+        <h3 className='card__content--comp'>{props.company}</h3>
+        <p className="card__content--description">{props.desc}</p>
 
 
         {shown && (
