@@ -4,7 +4,7 @@ import React from 'react';
 
 const Banner = (props) => {
   return (
-    <div>
+    <div className="Banner">
       {props.title}
       {props.time}
       {props.company}
