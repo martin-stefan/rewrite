@@ -37,6 +37,7 @@ function App() {
 
           <Route path="/">
             <Welcome />
+            
           </Route>
           
         </Switch>

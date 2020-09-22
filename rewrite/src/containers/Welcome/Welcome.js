@@ -11,20 +11,13 @@ const Welcome = () => {
   return (
     <div>
       <div className="Welcome">
-        <span className="background">
-          &nbsp;&nbsp;&nbsp;Stéfan 
-          <br /> 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Martin
-        </span>
         <div className="introduction">
-        <div className="introduction__main">
-          <span className="introduction__text">Hi </span>
-          <span className="introduction__text">I'm </span>
-          <span className="introduction__text">Stéfan</span>
-          
-        </div>
-
-          
+          <div className="introduction__main">
+            <span className="introduction__text">Hi </span>
+            <span className="introduction__text">I'm </span>
+            <span className="introduction__text">Stéfan</span>
+            
+          </div>
         </div>
       </div>
       <About />
