@@ -7,7 +7,6 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  background: url('../../images/stairsXS.jpg');
   box-shadow: -1rem 0rem 3rem #000;
   transition: .2s;
   
@@ -27,7 +26,25 @@
   }
 
   &__content {
+    height: 22rem;
+    width: 14rem;
     position: absolute;
+    margin: 1rem;
+
+    &--title {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+      margin-bottom: 0;
+    }
+
+    &--comp {
+      margin: 1rem 0;
+    }
+
+    &--desc {
+      font-size: 1.1rem;
+      line-height: 1.5rem;
+    }
 
 
   }

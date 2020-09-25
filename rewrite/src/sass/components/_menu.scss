@@ -86,7 +86,13 @@
       color: white;
       transform: translateX(1rem);
     }
+
+
+  //   &:hover + body {
+  //     filter: blur(5px);
+  //   }
   }
+
 
   // Functionality
   &__checkbox:checked ~ &__background {
