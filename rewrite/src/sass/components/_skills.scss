@@ -1,14 +1,20 @@
+.sectionTitle {
+  margin-left: 8rem;
+  font-size: 5rem;
+}
+
 .skills {
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 8rem;
 
   &__box {
     height: 65vh;
     width: 85vw;
-    background-color: gray;
+    // background-color: gray;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -17,8 +23,9 @@
     &__item {
       height: 12rem;
       width: 19rem;
-
-      background-color: green;
+      border-radius: 5px;
+      transition: .2s ease-in;
+      background-color: rgb(97, 85, 85);
 
       &--title {
         font-size: 1.3rem;
@@ -33,6 +40,7 @@
       
       &:hover {
         box-shadow: 0 0 1rem white;
+        transform: scale(1.1);
       }
     }
 
