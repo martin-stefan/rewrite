@@ -16,6 +16,7 @@ import {
   Link
 } from "react-router-dom";
 import Projects from './containers/Projects/Projects';
+import Skills from './components/Skills/Skills';
 
 
 function App() {
@@ -37,7 +38,7 @@ function App() {
 
           <Route path="/">
             <Welcome />
-            
+            <Skills />
           </Route>
           
         </Switch>
