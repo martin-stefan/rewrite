@@ -11,7 +11,7 @@ export const Card = (props) => {
       <div className='card__content'>
         <h3 className='card__content--title'>{props.title}</h3>
         <h3 className='card__content--comp'>{props.company}</h3>
-        <p className="card__content--description">{props.desc}</p>
+        <p className='card__content--desc'>{props.desc}</p>
       </div>
     </div>
   );
