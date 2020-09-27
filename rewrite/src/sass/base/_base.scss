@@ -9,11 +9,6 @@ body {
   
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 
 .pageTitle {
   text-align: left;
@@ -21,4 +16,19 @@ code {
   margin-bottom: 4rem;
   font-size: 4rem;
   padding-top: 1.7rem;
+}
+
+
+::-webkit-scrollbar {
+  width: .5rem;
+}
+::-webkit-scrollbar-track {
+  background: none;
+}
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(206, 199, 199);
 }
