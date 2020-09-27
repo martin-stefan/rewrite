@@ -29,7 +29,7 @@ const Projects = (props) => {
               company="RPI"
               time="December 2019"
               desc="The Loop is an application designed to display all events happening around campus. 
-                Through this project, my group memebers and I learned a great amount about PHP, MySQL, 
+                Through this project, my group memebers and I learned  about PHP, MySQL, 
                 and development with a team."
             />
             <Card 
@@ -37,7 +37,7 @@ const Projects = (props) => {
               company=" Hack RPI"
               time="November 2019"
               desc="In a 24 hour long hackathon, my group and I developed a simple application which would
-              serve as a login system for shelters to keep track of missing persons during a natural disaster."
+              serve as a login system for relief shelters to keep track of missing persons during a natural disaster."
             />
 
             <Card 
@@ -52,7 +52,7 @@ const Projects = (props) => {
               title="Anime Generator"
               company="Personal"
               time="Augst 2020"
-              desc="This is a simple application that allows a user to find a random anime to watch."
+              desc="Simple application utilizing JavaScript that allows a user to find a random anime from a list of 30,000 animes."
             />
           </article>
 
