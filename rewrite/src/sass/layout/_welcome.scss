@@ -3,11 +3,6 @@
 .Welcome {
   color: black;
   height: 100vh;
-
-
-  // &span:nth-child(even) {
-  //   font-size: 100px;
-  // }
 }
 
 
@@ -22,19 +17,4 @@
     text-shadow: 0 0 1.4rem rgb(255, 255, 255);
 
   }
-}
-
-
-.laser {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 5px;
-  height: 100%;
-  background: rgba(236, 23, 8, 0.534);
-  -webkit-box-shadow: 0px 0px 15px 0px rgba(236, 23, 8, 0.534);
-  -moz-box-shadow: 0px 0px 15px 0px rgba(236, 23, 8, 0.534);
-  box-shadow: 0px 0px 15px 0px rgba(236, 107, 97, 0.685);
-  transform: rotateZ(-18deg);
-
 }

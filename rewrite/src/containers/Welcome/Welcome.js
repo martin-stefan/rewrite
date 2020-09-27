@@ -14,8 +14,9 @@ const Welcome = () => {
         <div className="introduction">
           <div className="introduction__main">
             <p className="introduction__text">Stéfan</p>
-            
           </div>
+            <p>I'm a 19 year old college student who loves technology and making websites.</p>
+            <Button message="More about me"/>
         </div>
       </div>
       <About />

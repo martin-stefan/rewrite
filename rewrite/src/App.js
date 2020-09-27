@@ -17,6 +17,7 @@ import {
 } from "react-router-dom";
 import Projects from './containers/Projects/Projects';
 import Skills from './components/Skills/Skills';
+import Scroll from './components/Scroll/Scroll';
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
     <Router>
 
       <div className="App">
-
+        <Scroll />
         <Menu />
         
         <Switch>
