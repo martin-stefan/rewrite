@@ -1,13 +1,13 @@
 .card {
   height: 24rem;
   width: 16rem;
-  background-color: grey;
+  background-color: rgb(173, 181, 189);
   border-radius: 1rem;
   position: relative;
   display: flex;
   position: relative;
   flex-direction: column;
-  box-shadow: -1rem 0rem 3rem #000;
+  box-shadow: -1rem 0rem 1rem rgba(108, 117, 125, .6);
   transition: .2s;
   
 
