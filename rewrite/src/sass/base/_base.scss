@@ -5,13 +5,8 @@ body {
   padding: 0;
   box-sizing: border-box;
         
-  background: black;
+  background: rgb(52, 58, 64);
   
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
 
 
@@ -21,4 +16,19 @@ code {
   margin-bottom: 4rem;
   font-size: 4rem;
   padding-top: 1.7rem;
+}
+
+
+::-webkit-scrollbar {
+  width: .5rem;
+}
+::-webkit-scrollbar-track {
+  background: none;
+}
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(233, 236, 239);
 }
