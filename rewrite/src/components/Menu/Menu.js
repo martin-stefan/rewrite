@@ -17,9 +17,9 @@ export const Menu = () => {
         <nav className="navigation__nav">
           <ul className="navigation__list">
 
-            <li className="navigation__item"><a href="/" className="navigation__link"><span>01</span>Home</a></li>
-            <li className="navigation__item"><a href="/projects" className="navigation__link"><span>02</span>Projects</a></li>
-            <li className="navigation__item"><a href="/work" className="navigation__link"><span>03</span>Work</a></li>
+            <li className="navigation__item"><a href="/" className="navigation__link">Home</a></li>
+            <li className="navigation__item"><a href="/projects" className="navigation__link">Projects</a></li>
+            <li className="navigation__item"><a href="/work" className="navigation__link">Work</a></li>
 
 
           </ul>
