@@ -52,7 +52,7 @@ const Projects = (props) => {
               title="Anime Generator"
               company="Personal"
               time="Augst 2020"
-              desc="Simple application utilizing JavaScript that allows a user to find a random anime from a list of 30,000 animes."
+              desc="Simple application utilizing asynchronous JavaScript that allows a user to find a random anime from a list of 30,000 animes."
             />
           </article>
 
