@@ -1,29 +1,31 @@
 .card {
-  height: 26rem;
-  width: 16rem;
+  height: 20rem;
+  width: 30rem;
   background-color: $gunmetal;
   border-radius: 1rem;
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   position: relative;
-  flex-direction: column;
-  box-shadow: -1rem 0rem 1rem rgba(12, 12, 12, 0.6);
+  flex-direction: row;
+  box-shadow: 0rem 0rem 1rem rgba(12, 12, 12, 0.6);
   transition: .2s;
+  margin: 20px;
   
 
   &:hover {
     transform: scale(1.03) translateY(-1rem);
     transition: .2s ease-in;
 
-    &~.card {
-      transform: translateX(120px);
-    }
+    // &~.card {
+    //   transform: translateX(120px);
+    // }
 
   }
 
-  &:not(:first-child) {
-    margin-left: -120px;
-  }
+  // &:not(:first-child) {
+  //   margin-left: -120px;
+  // }
 
   &__button {
     background-color: white;
@@ -35,9 +37,13 @@
 
   &__content {
     height: 22rem;
-    width: 14rem;
     position: absolute;
-    margin: 1rem;
+    margin: 1rem 2rem;
+
+    &--header {
+      display: flex;
+      justify-content: space-between;
+    }
 
     &--title {
       font-size: 1.5rem;
