@@ -19,7 +19,6 @@ export const Menu = () => {
 
             <li className="navigation__item"><a href="/" className="navigation__link">Home</a></li>
             <li className="navigation__item"><a href="/projects" className="navigation__link">Projects</a></li>
-            <li className="navigation__item"><a href="/work" className="navigation__link">Work</a></li>
 
 
           </ul>

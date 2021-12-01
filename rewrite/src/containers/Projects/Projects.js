@@ -1,20 +1,14 @@
-// page that will contain all of my projects
-
 import React from 'react';
-import Aux from '../../Auxilliary';
 import Card from '../../components/Card/Card';
 
 const Projects = (props) => {
   return (
-    <Aux>
+    <div id="projects">
       <h1 className="pageTitle">Projects</h1>
-      <p className="intro">This page is dedicated to showing some of the projects that I have done within the past year.
+      <p className="project__intro">This page is dedicated to showing some of the projects that I have worked on throughout my college career.
         Some of these projects have been for school assignments, others have been for courses that I have taken
-        on Udemy, and some just for fun. Although none of these projects are completed/released, they 
-        all helped me enrich my web development skills and knowledge. </p>
-
-
-
+        on Udemy, and some just for fun. Each of these projects allowed me to expand my knowledge and sharpen my web development skills.
+      </p>
 
       <section className="cardDisplay">
 
@@ -92,7 +86,7 @@ const Projects = (props) => {
         </section>
 
       </section>
-    </Aux>
+    </div>
   );
 }
 

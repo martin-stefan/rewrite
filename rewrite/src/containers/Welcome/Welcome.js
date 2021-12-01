@@ -5,26 +5,25 @@ import '../../sass/main.scss';
 import { motion } from "framer-motion";
 import Menu from '../../components/Menu/Menu';
 import Button from '../../components/Button/Button';
-import About from '../../components/About/About';
-import photo from '../../images/prom.JPG';
 
 const Welcome = () => {
   return (
-    <div>
-      <div className="Welcome">
-        <div className="introduction">
-          <div className="introduction__main">
-            <p className="introduction__text">Stéfan</p>
-          </div>
-            <p>I'm a 19 year old college student who loves technology and making websites.</p>
+    <div className="Welcome">
+      <div className="intro">
+        <div className="intro__main">
+          <p className="intro__text">Stéfan Martin</p>
+        </div>
 
-            <div className="photoContainer">
-              <img src={photo} className="headshot" alt="photo of me"/>
-            </div>
-            <Button message="More about me"/>
+        <p className="intro__desc">
+          I am a junior at Rensselaer Polytechnic Institute pursuing 
+          my bachelor's degree in Information Technology and Web Science
+          looking for an internship/co-op for spring and summer 2022. 
+        </p>
+
+        <div className="intro__btn">
+          <a href="#projects" className="intro__btn--link">View my experience</a>
         </div>
       </div>
-      <About />
     </div>
   );
 }

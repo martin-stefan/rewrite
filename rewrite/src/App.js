@@ -6,7 +6,6 @@ import Footer from './containers/Footer/Footer';
 import Card from './components/Card/Card';
 import Button from './components/Button/Button';
 import Menu from './components/Menu/Menu';
-import Work from './containers/Work/Work';
 
 
 import {
@@ -16,38 +15,23 @@ import {
   Link
 } from "react-router-dom";
 import Projects from './containers/Projects/Projects';
-import Skills from './components/Skills/Skills';
+import Skills from './containers/Skills/Skills';
 import Scroll from './components/Scroll/Scroll';
+import Courses from './containers/Courses/Courses';
 
 
 function App() {
   return (
-    <Router>
 
       <div className="App">
         <Scroll />
-        <Menu />
-        
-        <Switch>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-
-          <Route path="/work">
-            <Work />
-          </Route>
-
-          <Route path="/">
-            <Welcome />
-            <Skills />
-          </Route>
-          
-        </Switch>
-      
-
+        <Welcome />
+        <Projects />
+        <Courses />
+        <Skills />
         <Footer />
+      
       </div>
-    </Router>
     );
 }
 

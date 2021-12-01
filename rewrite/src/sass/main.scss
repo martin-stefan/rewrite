@@ -22,3 +22,6 @@
 @import "layout/welcome";
 @import "layout/work";
 
+html {
+  scroll-behavior: smooth;
+}
