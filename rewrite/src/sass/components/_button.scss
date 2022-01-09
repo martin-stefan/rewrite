@@ -1,21 +1,21 @@
 .button {
-  height: 2rem;
-  width: 6rem;
-  display: flex;
-  padding: 1rem;
-  border-radius: 2rem;
-  align-items: center;
-  justify-content: center;
+  // height: 2rem;
+  // width: 6rem;
+  // display: flex;
+  // padding: 1rem;
+  // align-items: center;
+  // justify-content: center;
   transition: .15s ease-in;
   color: white;
-  cursor: pointer;
+  
 
   &:hover {
-    transform: translateY(-.2rem);
+    transform: translateY(-2px);
+    cursor: pointer;
   }
 
   &:active {
-    transform: translateY(0.1rem);
+    transform: translateY(2px);
     transition: .1s ease-out;
   }
 
