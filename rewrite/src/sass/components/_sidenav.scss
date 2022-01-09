@@ -2,4 +2,12 @@
   height: 100%;
   width: 14rem;
   // background-color: rgba(16 18 27 / 40%);
+
+  &__links {
+    list-style-type: none;
+  }
+
+  &__link {
+    text-decoration: none;
+  }
 }

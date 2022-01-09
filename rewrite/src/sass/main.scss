@@ -16,11 +16,15 @@
 @import "components/scroll";
 @import "components/skills";
 @import "components/sidenav";
+@import "components/course";
+
 
 @import "layout/footer";
 @import "layout/projects";
 @import "layout/welcome";
 @import "layout/work";
+@import "layout/courses";
+
 
 html {
   scroll-behavior: smooth;

@@ -1,0 +1,24 @@
+.course {
+  background-color: #21242d;
+
+  padding: 1rem 1.5rem;
+  margin: 0 2rem;
+
+  &:not(:last-child) {
+    border-bottom: solid 1px #2e3035;
+  }
+
+  &__desc {
+    display: none;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: #21242d9a;
+
+  }
+}
+
+h4 {
+  margin: 0
+}
