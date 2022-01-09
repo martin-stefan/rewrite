@@ -13,8 +13,9 @@
 
   &__list {
     display: flex;
-    margin-left: 4rem;
-    flex-wrap: wrap;
+    flex-direction: column;
+    // margin-left: 4rem;
+    // flex-wrap: wrap;
   }
 
   &__title {

@@ -1,6 +1,5 @@
 .card {
-  height: 20rem;
-  width: 30rem;
+  height: 2rem;
   border-radius: 1rem;
   position: relative;
   display: flex;
@@ -8,12 +7,6 @@
   // background: #e0e0e0;
   // box-shadow:  20px 20px 60px rgb(145, 152, 158),
   //            -20px -20px 60px rgba(220, 231, 241, 0.623);
-  background: rgb(255 255 255 / 31%);
-  
-  box-shadow:  12px 12px 24px #939aa1,
-             -12px -12px 24px #c7d0d9;
-  transition: .2s;
-  margin: 20px;
   
 
   // &:hover {
@@ -21,43 +14,43 @@
   //   transition: .2s ease-in;
   // }
 
-  &__button {
+  // &__button {
     
-    border-radius: 1rem;
+  //   border-radius: 1rem;
 
-    z-index: 10;
+  //   z-index: 10;
 
-    & > h3 {
-      color: $gunmetal;
-    }
-  }
+  //   & > h3 {
+  //     color: $gunmetal;
+  //   }
+  // }
 
-  &__content {
-    margin: 1.5rem 1.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  // &__content {
+  //   margin: 1.5rem 1.5rem;
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: space-between;
 
-    &--header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin: 0;
-    }
+  //   &--header {
+  //     display: flex;
+  //     justify-content: space-between;
+  //     align-items: center;
+  //     margin: 0;
+  //   }
 
-    &--title {
-      font-size: 1.5rem;
-      margin: 0;
-    }
+  //   &--title {
+  //     font-size: 1.5rem;
+  //     margin: 0;
+  //   }
 
 
  
-    &--desc {
-      font-size: 1.1rem;
-      line-height: 1.5rem;
-      margin: 0;
-    }
+  //   &--desc {
+  //     font-size: 1.1rem;
+  //     line-height: 1.5rem;
+  //     margin: 0;
+  //   }
 
 
-  }
+  // }
 }

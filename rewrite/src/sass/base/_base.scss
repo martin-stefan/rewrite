@@ -16,6 +16,10 @@ h3 {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 .pageTitle {
   text-align: left;
   margin-left: 3rem;
@@ -48,6 +52,7 @@ h3 {
   left: 50%;
   transform: translate(-50%, -50%);
   // background-color: rgba(0, 0, 0, 0.158);
+
   
   background-color: rgba(16 18 27 / 40%);
   backdrop-filter: blur(10px);
@@ -56,11 +61,13 @@ h3 {
   border-radius: 15px;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
   &__content {
     background-color: rgba(16 18 27 / 40%);
     height: 100%;
     flex: 1;
+    padding-top: 2rem;
+
   }
 }
