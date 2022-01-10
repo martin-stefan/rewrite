@@ -14,7 +14,6 @@ export const Card = (props) => {
           <h3 className='card__content--comp'>{props.company}</h3>
         </div>
         {/* <p className='card__content--desc'>{props.desc}</p> */}
-        <Button message="Preview" class="card__button"/>
       </div>
     </div>
   );

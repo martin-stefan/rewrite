@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const SideNav = () => {
   return (
     <div className="sidenav">
-      <Link to="/projects" >Projects</Link>
-      <Link to="/courses">Courses</Link>
-      <Link to="/">Contact</Link>
+      <Link to="/projects" className="sidenav__link">Projects</Link>
+      <Link to="/courses" className="sidenav__link">Courses</Link>
+      <Link to="/" className="sidenav__link">Contact</Link>
     </div>
   )
 }
