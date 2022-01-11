@@ -140,16 +140,22 @@ const Projects = (props) => {
         target = element;
       }
     }
-    content = <div>
-                <Link to={{path: "/projects", state:{title: "list"}}}>return</Link>
+    content = 
+      <div>
+        <Link to={{path: "/projects", state:{title: "list"}}} className='link'>return</Link>
 
-                <Card 
-                  title={target.title}
-                  company={target.company}
-                  time={target.time}
-                  desc={target.desc}
-                />
-              </div>
+        <Card 
+          title={target.title}
+          company={target.company}
+          time={target.time}
+          desc={target.desc}
+        />
+
+        <Link to={{path: "/projects", state:{title: "list"}}} className='link'>Previous</Link>
+
+        <Link to={{path: "/projects", state:{title: "list"}}} className='link'>Next</Link>
+
+      </div>
 
   
   }
