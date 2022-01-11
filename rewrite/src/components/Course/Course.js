@@ -10,7 +10,10 @@ const Course = props => {
           <p className="course__open">{props.open == props.item ? "-": "+"}</p>
         </div>
       </div>
-      <div className={props.open == props.item ? "content show": "content"}>{ props.desc }</div>
+      <div className={props.open == props.item ? "content show": "content"}>
+        { props.time }
+        { props.desc }
+      </div>
     </div>
   );
 }
