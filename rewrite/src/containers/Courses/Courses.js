@@ -19,7 +19,8 @@ const Courses = () => {
   const data = [
     {
       title: "Managing IT Resources",
-      desc: "jddddddddddddddddddddddddddddddddddddddddddddd"
+      desc: "Hands-on classroom experience focusing on modern web design topics such as API’s & \
+      authentication/authorization using tools including AngularJS, React, Express, and MongoDB. "
     }, 
     {
       title: "Intro to Algo",

@@ -19,6 +19,7 @@ import Skills from './containers/Skills/Skills';
 import Scroll from './components/Scroll/Scroll';
 import Courses from './containers/Courses/Courses';
 import SideNav from './components/SideNav/SideNav';
+import Work from './containers/Work/Work';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
               <Route path="/courses" component={Courses} />
               <Route path="/projects" component={Projects} />
               <Route path="/skills" component={Skills} />
+              <Route path="/work" component={Work} />
             </Switch>
           </div>
         </div>
