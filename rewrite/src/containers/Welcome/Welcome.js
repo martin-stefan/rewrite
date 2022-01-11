@@ -3,8 +3,7 @@
 import React from 'react';
 import '../../sass/main.scss';
 import { motion } from "framer-motion";
-import Menu from '../../components/Menu/Menu';
-import Button from '../../components/Button/Button';
+import { Link } from 'react-router-dom';
 
 const Welcome = () => {
   return (
@@ -17,11 +16,12 @@ const Welcome = () => {
         <p className="intro__desc">
           I am a rising senior at Rensselaer Polytechnic Institute pursuing 
           my bachelor's degree in Information Technology and Web Science
-          looking for an internship/co-op for spring and summer 2022. 
+          seeking a co-op for the Spring and Summer of 2022 working as a
+          Web Developer, Software Engineer, or Project Manager.
         </p>
 
         <div className="intro__btn">
-          <a href="#projects" className="intro__btn--link">Learn More</a>
+          <Link to="/projects">My Projects</Link>
         </div>
       </div>
     </div>

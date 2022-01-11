@@ -1,6 +1,7 @@
 import React from "react";
+import Skills from '../Skills/Skills';
 
-const Work = () => {
+const Experience = () => {
 
   const jobs = [
     {
@@ -35,8 +36,9 @@ const Work = () => {
           </div>
         ))
       }
+      <Skills/>
     </div>
   )
 }
 
-export default Work;
+export default Experience;
