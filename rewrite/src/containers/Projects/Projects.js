@@ -141,7 +141,8 @@ const Projects = (props) => {
       }
     }
     content = <div>
-                <button className="return" onClick={() => projectClickHandler("list")}>Return</button>
+                <Link to={{path: "/projects", state:{title: "list"}}}>return</Link>
+
                 <Card 
                   title={target.title}
                   company={target.company}
