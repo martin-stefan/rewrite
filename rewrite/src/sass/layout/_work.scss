@@ -47,7 +47,12 @@
   }
 
   &__item:not(:first-child) {
-    margin-top: 1.5rem;
+    padding-top: 0.75rem;
 
+  }
+
+  &__item:not(:last-child) {
+    border-bottom: solid 1px #b1b2b648;
+    padding-bottom: 0.75rem;
   }
 }
