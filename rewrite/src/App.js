@@ -1,11 +1,8 @@
 import React from 'react';
-import Loading from './components/Loading/Loading';
 import Welcome from './containers/Welcome/Welcome';
-import Footer from './containers/Footer/Footer';
 
 import Card from './components/Card/Card';
 import Button from './components/Button/Button';
-import Menu from './components/Menu/Menu';
 
 
 import {
@@ -16,7 +13,6 @@ import {
 } from "react-router-dom";
 import Projects from './containers/Projects/Projects';
 import Skills from './containers/Skills/Skills';
-import Scroll from './components/Scroll/Scroll';
 import Courses from './containers/Courses/Courses';
 import SideNav from './components/SideNav/SideNav';
 import Experience from './containers/Experience/Experience';

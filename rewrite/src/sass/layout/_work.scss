@@ -3,20 +3,28 @@
   height: 100%;
   // width: 100%;
   padding: 0 2rem;
+ 
+  
 
   &__title {
     margin: 0;
+    margin-bottom: 1rem;
   }
 }
 
 .work {
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   align-items: flex-start;
-  justify-content: space-evenly;
+  justify-content: center;
+
+  background-color: rgb(146 151 179 / 13%);
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  border: solid 2px transparent;
+  background-clip: padding-box;
 
   &__item {
-    margin-top: 1.5rem;
 
     &--title {
       font-size: 1.3rem;
@@ -36,5 +44,10 @@
       font-size: 1.2rem;
       margin-top: 10px;
     }
+  }
+
+  &__item:not(:first-child) {
+    margin-top: 1.5rem;
+
   }
 }
