@@ -1,12 +1,40 @@
+.experience {
+
+  height: 100%;
+  // width: 100%;
+  padding: 0 2rem;
+
+  &__title {
+    margin: 0;
+  }
+}
+
 .work {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
 
-  height: 100vh;
-  margin-top: 13rem;
+  &__item {
+    margin-top: 1.5rem;
 
-  &__list {
-    display: flex;
-    flex-flow: column;
-    margin: 2rem 4rem;
-    align-items: center;
+    &--title {
+      font-size: 1.5rem;
+    }
+
+    &--company {
+      font-size: 1.3rem;
+
+    }
+
+    &--time {
+      font-size: 1.3rem;
+
+    }
+
+    &--desc {
+      font-size: 1.3rem;
+      margin-top: 10px;
+    }
   }
 }

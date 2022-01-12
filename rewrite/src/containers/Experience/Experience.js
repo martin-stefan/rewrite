@@ -25,17 +25,22 @@ const Experience = () => {
     }
   ]
   return (
-    <div className="work">
-      {
-        jobs.map((el, i) => (
-          <div className="work__item">
-            <p className="work__item--title">{el.title}</p>
-            <p className="work__item--company">{el.company}</p>
-            <p className="work__item--time">{el.time}</p>
-            <p className="work__item--desc">{el.desc}</p>
-          </div>
-        ))
-      }
+    <div className="experience">
+
+      <h2 className="experience__title">Work Experience</h2>
+      <div className="work">
+
+        {
+          jobs.map((el, i) => (
+            <div className="work__item">
+              <p className="work__item--title">{el.title}</p>
+              <p className="work__item--company">{el.company}</p>
+              <p className="work__item--time">{el.time}</p>
+              <p className="work__item--desc">{el.desc}</p>
+            </div>
+          ))
+        }
+      </div>
       <Skills/>
     </div>
   )
