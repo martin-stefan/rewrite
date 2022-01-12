@@ -11,8 +11,8 @@ const Course = props => {
         </div>
       </div>
       <div className={props.open == props.item ? "content show": "content"}>
-        { props.time }
-        { props.desc }
+        <p className="course__time">{ props.time }</p>
+        <p className="course__desc">{ props.desc }</p>
       </div>
     </div>
   );
