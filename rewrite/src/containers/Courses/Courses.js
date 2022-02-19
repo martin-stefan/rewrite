@@ -19,7 +19,7 @@ const Courses = () => {
   const data = [
     {
       title: "Managing IT Resources",
-      desc: "Provides an introduction to fundamental concepts of management. Inclues information systems, development \
+      desc: "Provides an introduction to fundamental concepts of project management. Inclues information systems, development \
             life cycle, project management, and applies these concepts to IT.",
       time: "Fall 2021"
     }, 

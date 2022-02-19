@@ -89,7 +89,7 @@ const Projects = (props) => {
           </article>
         </section>
 
-        <section className="cards">
+        {/* <section className="cards">
           <h1 className="cards__title">Online Course Projects</h1>
           <article className="cards__list">
             {
@@ -105,7 +105,7 @@ const Projects = (props) => {
               })
             }
           </article>
-        </section>
+        </section> */}
       </section>
 
   return (

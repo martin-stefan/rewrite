@@ -5,6 +5,13 @@ const Experience = () => {
 
   const jobs = [
     {
+      title: "Software Engineering Intern",
+      company: "Bai Engineers", 
+      time: "January 2022 - May 2022",
+      desc: "Built a web application which dynamically displays the geological structure of \
+            wastewater systems onto an interactive map."
+    },
+    {
       title: "Computer Science Instructor",
       company: "Juni Learning", 
       time: "June 2020 - Present",
@@ -36,7 +43,7 @@ const Experience = () => {
               <p className="work__item--title">{el.title}</p>
               <p className="work__item--company">{el.company}</p>
               <p className="work__item--time">{el.time}</p>
-              <p className="work__item--desc">{el.desc}</p>
+              {el.desc.length > 0 ? <p className="work__item--desc">{el.desc}</p> : ''}
             </div>
           ))
         }
