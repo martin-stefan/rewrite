@@ -22,22 +22,12 @@ const Details = props => {
   
   return (
     <div>
-      <Link to={"/projects"} className='link'>return</Link>
-      {props.project}
-
-      <img src={images[projectTitle][curImg]} alt="Project image" className='previewImg'/>
-      {/* {
-        
-        images[projectTitle].map(el => {
-          return <img src={el} alt="Project image" className='previewImg'/>
-        })
-      } */}
-
-      <button className="imageScroll" onClick={() => handleImgChange(-1)}>Previous Image</button>
-      <button className="imageScroll" onClick={() => handleImgChange(1)}>Next Image</button>
-
-      {/* <Link to={{path: "/projects", state:{title: "list"}}} className='link'>Previous Project</Link>
-      <Link to={{path: "/projects", state:{title: "list"}}} className='link'>Next Project</Link> */}
+      <Link to={"/projects"} className='link'>Return</Link>
+      <div className="imgCarousel">
+        <img src={images[projectTitle][curImg]} alt="Project image" className='previewImg'/>
+        <button className="imageScroll" onClick={() => handleImgChange(-1)}>Previous Image</button>
+        <button className="imageScroll" onClick={() => handleImgChange(1)}>Next Image</button>
+      </div>
     </div>
   )
 }

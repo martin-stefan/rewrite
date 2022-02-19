@@ -5,8 +5,8 @@ import Details from '../../components/Details/Details';
 
 const Projects = (props) => {
 
-  const projects = [
-    {
+  const projects = {
+    "The Loop": {
       title: "The Loop",
       company: "RPI",
       time: "August 2021 - December 2019",
@@ -15,7 +15,7 @@ const Projects = (props) => {
                 and development with a team.",
     },
 
-    {
+    "DeFazio's": {
       title: "DeFazio's",
       company: "DeFazio's/RPI",
       time: "August 2021 - December 2021",
@@ -24,7 +24,7 @@ const Projects = (props) => {
                     make a reservation, cater, and more.",
     },
 
-    {
+    "Pizzi": {
       title: "Pizzi",
       company: "RPI",
       time: "August 2020 - December 2020",
@@ -32,41 +32,18 @@ const Projects = (props) => {
              a simplistic method of sharing and connecting with others through music.",
     },
 
-    {
+    "Spects": {
       title: "Spects",
       company: "Personal",
       time: "June 2021 - Present",
       desc: "This is some info",
     },
-    {
-      title: "Natours",
-      company: "Course",
-      time: "June 2020",
-      desc: "Natours a small application meant to serve as a landing page for an imaginary \
-                company which offers tours around the world. It introduced me to many new design \
-                principles and tools that are availabe with CSS and SCSS.",
-    },
-  
-    {
-      title: "Budgety",
-      company: "Course",
-      time: "July 2020",
-      desc: "This project is a simple budget calculator. In building \
-                this project, I learned more about modern JavaScript, utilizing classes and state management.",
-    },
-  
-    {
-      title: "Forkify",
-      company: "Course",
-      time: "July 2020",
-      desc: "Forkify is an application that utilizes an API to search for recipes of a given word \
-                from many different websites and resources. This project emphasized \
-                asynchronous JavaScript, API usage, and more state management",
-    },
-  ]
+  }
 
   let { path, url } = useRouteMatch()
   let content = "";
+  const keys = Object.keys(projects);
+  console.log(keys)
 
     content = 
       <section className="cardDisplay">
@@ -74,38 +51,17 @@ const Projects = (props) => {
           <h1 className="cards__title">Personal & School Projects</h1>
           <article className="cards__list">
             {
-              projects.map((el, i) => {
-                if (el.company != "Course") {
-                  return <Card 
-                    title={el.title}
-                    company={el.company}
-                    time={el.time}
-                    desc={el.desc}
-                  />
-
-                }
-            })
-            }
-          </article>
-        </section>
-
-        {/* <section className="cards">
-          <h1 className="cards__title">Online Course Projects</h1>
-          <article className="cards__list">
-            {
-              projects.map((el, i) => {
-                if (el.company == "Course") {
-                  return <Card 
-                    title={el.title}
-                    company={el.company}
-                    time={el.time}
-                    desc={el.desc}
-                  />
-                }
+              keys.map(el => {
+                return <Card 
+                  title={projects[el].title}
+                  company={projects[el].company}
+                  time={projects[el].time}
+                  desc={projects[el].desc}
+                />
               })
             }
           </article>
-        </section> */}
+        </section>
       </section>
 
   return (
