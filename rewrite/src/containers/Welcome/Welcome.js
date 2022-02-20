@@ -10,18 +10,18 @@ const Welcome = () => {
     <div className="Welcome">
       <div className="intro">
         <div className="intro__main">
-          <p className="intro__text">Stéfan Martin</p>
+          <h1 className="intro__text">Stéfan Martin</h1>
         </div>
 
         <p className="intro__desc">
           I am a rising senior at Rensselaer Polytechnic Institute pursuing 
           my bachelor's degree in Information Technology and Web Science
-          seeking a co-op for the Spring and Summer of 2022 working as a
+          seeking an internship for the Summer of 2022 working as a
           Web Developer, Software Engineer, or Project Manager.
         </p>
 
         <div className="intro__btn">
-          <Link to="/projects">My Projects</Link>
+          <Link to="/projects" className="intro__btn--link">View My Projects</Link>
         </div>
       </div>
     </div>
