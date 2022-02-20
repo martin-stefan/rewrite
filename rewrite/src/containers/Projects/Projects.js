@@ -35,9 +35,9 @@ const Projects = (props) => {
       title: "The Loop",
       company: "RPI",
       time: "August 2021 - December 2019",
-      desc: "The Loop is an application designed to display all events happening around campus. \
-            Through this project, my group memebers and I learned  about PHP, MySQL, \
-                and development with a team.",
+      desc: "Application designed to display all events around a college campus. \
+            Served as an introduction to the software development process as well as \
+            web techonologies including PHP, MySQL, and JavaScript.",
     },
   }
 
