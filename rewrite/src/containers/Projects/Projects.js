@@ -6,15 +6,6 @@ import Details from '../../components/Details/Details';
 const Projects = (props) => {
 
   const projects = {
-    "The Loop": {
-      title: "The Loop",
-      company: "RPI",
-      time: "August 2021 - December 2019",
-      desc: "The Loop is an application designed to display all events happening around campus. \
-            Through this project, my group memebers and I learned  about PHP, MySQL, \
-                and development with a team.",
-    },
-
     "DeFazio's": {
       title: "DeFazio's",
       company: "DeFazio's/RPI",
@@ -36,7 +27,17 @@ const Projects = (props) => {
       title: "Spects",
       company: "Personal",
       time: "June 2021 - Present",
-      desc: "This is some info",
+      desc: "Application which aims to provide a rewarding experience in completing and \
+            managing tasks using a visually focused design and currency system built \
+            with React, Firebase, and Node.",
+    },
+    "The Loop": {
+      title: "The Loop",
+      company: "RPI",
+      time: "August 2021 - December 2019",
+      desc: "The Loop is an application designed to display all events happening around campus. \
+            Through this project, my group memebers and I learned  about PHP, MySQL, \
+                and development with a team.",
     },
   }
 
