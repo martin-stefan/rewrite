@@ -1,21 +1,17 @@
 import React from 'react';
 import Welcome from './containers/Welcome/Welcome';
 
-import Card from './components/Card/Card';
-import Button from './components/Button/Button';
-
-
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Projects from './containers/Projects/Projects';
 import Skills from './containers/Skills/Skills';
 import Courses from './containers/Courses/Courses';
 import SideNav from './components/SideNav/SideNav';
 import Experience from './containers/Experience/Experience';
+import { Contact } from './components/Contact/Contact';
 
 
 function App() {
@@ -33,6 +29,8 @@ function App() {
               <Route path="/projects" component={Projects} />
               <Route path="/skills" component={Skills} />
               <Route path="/experience" component={Experience} />
+              <Route path="/contact" component={Contact} />
+
             </Switch>
           </div>
         </div>
