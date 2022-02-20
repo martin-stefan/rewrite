@@ -1,17 +1,22 @@
-import createorder from "../images/DeFazio's/createorder.jpg";
-import details from "../images/DeFazio's/details.jpg";
-import home from "../images/DeFazio's/home.jpg";
-import menuCat from "../images/DeFazio's/menuCat.jpg";
-import menuItems from "../images/DeFazio's/menuItems.jpg";
-import signin from "../images/DeFazio's/signin.jpg";
+import createorder from "./DeFazio's/createorder.jpg";
+import details from "./DeFazio's/details.jpg";
+import defHome from "./DeFazio's/home.jpg";
+import menuCat from "./DeFazio's/menuCat.jpg";
+import menuItems from "./DeFazio's/menuItems.jpg";
+import signin from "./DeFazio's/signin.jpg";
 
-import feed from "../images"
+import feed from "./Pizzi/feed.jpg";
+import pizHome from "./Pizzi/home.jpg";
+import pizPost from "./Pizzi/createPost.jpg";
+import pizNav from "./Pizzi/nav.jpg";
+
+
 
 
 
 const images = {
-  "DeFazio's": [createorder, details, home, menuCat, menuItems, signin],
-  "Pizzi": [],
+  "DeFazio's": [defHome, signin, createorder, menuCat, menuItems, details],
+  "Pizzi": [pizHome, feed, pizNav, pizPost],
   "Spects": [],
   "The Loop": [],
 }

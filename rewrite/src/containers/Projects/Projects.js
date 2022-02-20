@@ -48,7 +48,6 @@ const Projects = (props) => {
     content = 
       <section className="cardDisplay">
         <section className="cards">
-          <h1 className="cards__title">Personal & School Projects</h1>
           <article className="cards__list">
             {
               keys.map(el => {
