@@ -6,21 +6,23 @@
 @import "base/utilities";
 
 @import "components/about";
-@import "components/banner";
 @import "components/button";
 @import "components/card";
+@import "components/details";
 @import "components/links";
-@import "components/loading";
-@import "components/menu";
 @import "components/more";
-@import "components/scroll";
 @import "components/skills";
+@import "components/sidenav";
+@import "components/course";
+@import "components/contact";
 
 
 @import "layout/footer";
 @import "layout/projects";
 @import "layout/welcome";
 @import "layout/work";
+@import "layout/courses";
+
 
 html {
   scroll-behavior: smooth;

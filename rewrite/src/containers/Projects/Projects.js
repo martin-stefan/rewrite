@@ -1,91 +1,79 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { Switch, Route, useRouteMatch } from 'react-router-dom'; 
 import Card from '../../components/Card/Card';
+import Details from '../../components/Details/Details';
 
 const Projects = (props) => {
+
+  const projects = {
+    "DeFazio's": {
+      title: "DeFazio's",
+      company: "DeFazio's/RPI",
+      time: "August 2021 - December 2021",
+      desc: "Worked as the lead developer for a team of five creating a mobile application for a \
+                    pizzeria in Troy, NY to give customers the ability to view the menu, \
+                    make a reservation, cater, and more.",
+    },
+
+    "Pizzi": {
+      title: "Pizzi",
+      company: "RPI",
+      time: "August 2020 - December 2020",
+      desc: "Co-led a team of five individuals to develop a social media application which focused on creating \
+             a simplistic method of sharing and connecting with others through music.",
+    },
+
+    "Spects": {
+      title: "Spects",
+      company: "Personal",
+      time: "June 2021 - Present",
+      desc: "Application which aims to provide a rewarding experience in completing and \
+            managing tasks using a visually focused design and currency system built \
+            with React, Firebase, and Node.",
+    },
+    "The Loop": {
+      title: "The Loop",
+      company: "RPI",
+      time: "August 2021 - December 2019",
+      desc: "Application designed to display all events around a college campus. \
+            Served as an introduction to the software development process as well as \
+            web techonologies including PHP, MySQL, and JavaScript.",
+    },
+  }
+
+  let { path, url } = useRouteMatch()
+  let content = "";
+  const keys = Object.keys(projects);
+  console.log(keys)
+
+    content = 
+      <section className="cardDisplay">
+        <section className="cards">
+          <article className="cards__list">
+            {
+              keys.map(el => {
+                return <Card 
+                  title={projects[el].title}
+                  company={projects[el].company}
+                  time={projects[el].time}
+                  desc={projects[el].desc}
+                />
+              })
+            }
+          </article>
+        </section>
+      </section>
+
   return (
     <div id="projects">
-      <h1 className="pageTitle">Projects</h1>
-      <p className="project__intro">This page is dedicated to showing some of the projects that I have worked on throughout my college career.
-        Some of these projects have been for school assignments, others have been for courses that I have taken
-        on Udemy, and some just for fun. Each of these projects allowed me to expand my knowledge and sharpen my web development skills.
-      </p>
-
-      <section className="cardDisplay">
-
-        <section className="cards">
-
-        
-          <h1 className="cards__title">Personal & School Projects</h1>
-
-          <article className="cards__list">
-            <Card 
-              title="The Loop"
-              company="RPI"
-              time="December 2019"
-              desc="The Loop is an application designed to display all events happening around campus. 
-                Through this project, my group memebers and I learned  about PHP, MySQL, 
-                and development with a team."
-            />
-            <Card 
-              title="FiNd"
-              company=" Hack RPI"
-              time="November 2019"
-              desc="In a 24 hour long hackathon, my group and I developed a simple application which would
-              serve as a login system for relief shelters to keep track of missing persons during a natural disaster."
-            />
-
-            <Card 
-              title="Bad UI"
-              company="Personal"
-              time="August 2020"
-              desc="This a project that I am building for fun. The purpose of it is to experiment with 
-                JavaScript and to create a website that tests the patience of its users. "
-            />
-
-            <Card 
-              title="Anime Generator"
-              company="Personal"
-              time="Augst 2020"
-              desc="Simple application utilizing asynchronous JavaScript that allows a user to find a random anime from a list of 30,000 animes."
-            />
-          </article>
-
-        </section>
-
-        <section className="cards">
-
-          <h1  className="cards__title">Online Course Projects</h1>
-
-          <article className="cards__list">
-            <Card 
-              title="Natours"
-              company="Course"
-              time="June 2020"
-              desc="Natours a small application meant to serve as a landing page for an imaginary 
-                company which offers tours around the world. It introduced me to many new design 
-                principles and tools that are availabe with CSS and SCSS."
-            />
-
-            <Card 
-              title="Budgety"
-              company="Course"
-              time="July 2020"
-              desc="This project is a simple budget calculator. In building 
-                this project, I learned more about modern JavaScript, utilizing classes and state management."
-            />
-
-            <Card 
-              title="Forkify"
-              company="Course"
-              time="July 2020"
-              desc="Forkify is an application that utilizes an API to search for recipes of a given word
-                from many different websites and resources. This project emphasized
-                asynchronous JavaScript, API usage, and more state management"
-            />
-          </article>
-        </section>
-
-      </section>
+      <Switch>
+        <Route exact path={path}>
+          {content}
+        </Route>
+        <Route path={`${path}/:projectTitle`}>
+          <Details projectData={projects}/>
+        </Route>
+      </Switch>
     </div>
   );
 }
