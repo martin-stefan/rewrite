@@ -10,7 +10,7 @@ const Projects = (props) => {
       title: "DeFazio's",
       company: "DeFazio's/RPI",
       time: "August 2021 - December 2021",
-      desc: "Worked as the lead developer for a team of 5 creating a mobile application for a \
+      desc: "Worked as the lead developer for a team of five creating a mobile application for a \
                     pizzeria in Troy, NY to give customers the ability to view the menu, \
                     make a reservation, cater, and more.",
     },

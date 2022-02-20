@@ -38,16 +38,19 @@ const Details = props => {
         <p className="projectInfo__desc">{props.projectData[projectTitle].desc}</p>
       </div>
 
-      <div className="imgCarousel">
+      {images[projectTitle].length > 0 ? 
+        <div className="imgCarousel">
         
-        <button className="imageScroll" onClick={() => handleImgChange(-1)}>
-          <FontAwesomeIcon icon="circle-arrow-left" className='imageScroll__icon'/>
-        </button>
-        <img src={images[projectTitle][curImg]} alt="Project image" className='previewImg'/>
-        <button className="imageScroll" onClick={() => handleImgChange(1)}>
-          <FontAwesomeIcon icon="circle-arrow-right" className='imageScroll__icon'/>
-        </button>
-      </div>
+          <button className="imageScroll" onClick={() => handleImgChange(-1)}>
+            <FontAwesomeIcon icon="circle-arrow-left" className='imageScroll__icon'/>
+          </button>
+          <img src={images[projectTitle][curImg]} alt="Project image" className='previewImg'/>
+          <button className="imageScroll" onClick={() => handleImgChange(1)}>
+            <FontAwesomeIcon icon="circle-arrow-right" className='imageScroll__icon'/>
+          </button>
+        </div> 
+        : <p className='imgMessage'>No images yet</p>}
+      
     </div>
   )
 }
